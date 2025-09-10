@@ -46,6 +46,6 @@ def adjust_font_size_and_position(text: str, width: int, height: int,
         position_y = pad_top // 2 
     else:
         # 하단 패딩 영역의 상단에 위치
-        position_y = height + pad_top + (pad_bottom // 2) - 10
+        position_y = height + pad_top + (pad_bottom // 2) - 60
     
     return font_size, position_x, position_y
